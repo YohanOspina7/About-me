@@ -35,7 +35,10 @@ body {
 
 .padre__texto__botones{
     display: flex;
-    justify-content: space-between ;    
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
 }
 
 img {
@@ -51,8 +54,9 @@ img {
     
 }
 
-.padre__texto__boton1 {
+.padre__texto__boton {
     background-color: #581299;
+    text-decoration: none;
     width: 200px;
     margin-top: 20px;
     padding: 10px 0 10px 0;
@@ -61,14 +65,13 @@ img {
     font-size: 20px;
 }
 
-.padre__texto__boton2 {
-    background-color: #581299;
-    text-decoration: none;
+.padre__texto__boton__color:visited {
     color: black;
-    width: 200px;
+}
+
+.padre__texto__botones__subtitulo {
+    font-family: "Krona One", serif;
     margin-top: 20px;
-    padding: 10px 0 10px 0;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 20px;
+    font-weight: 400px;
+    font-size: 24px;
 }
