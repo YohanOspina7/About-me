@@ -66,6 +66,13 @@ body {
     border: solid 2px #581299;
 }
 
+.padre__texto__boton__estilo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .padre__texto__boton__estilo:visited {
     color: #360168;
 }
