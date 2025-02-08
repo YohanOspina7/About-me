@@ -55,7 +55,7 @@ body {
 }
 
 .padre__texto__boton {
-    color: #f6f6f6;
+    color: #581299;
     text-decoration: none;
     width: 200px;
     margin-top: 20px;
@@ -66,8 +66,8 @@ body {
     border: solid 2px #581299;
 }
 
-.padre__texto__boton__color:visited {
-    color: #581299;
+.padre__texto__boton__estilo:visited {
+    color: #360168;
 }
 
 .padre__texto__botones__subtitulo {
