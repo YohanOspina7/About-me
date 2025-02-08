@@ -55,7 +55,7 @@ body {
 }
 
 .padre__texto__boton {
-    color: #581299;
+    color: white;
     text-decoration: none;
     width: 200px;
     margin-top: 20px;
@@ -66,11 +66,15 @@ body {
     border: solid 2px #581299;
 }
 
+.padre__texto__boton:hover {
+    background-color: #232027;
+}
+
 .padre__texto__boton__estilo {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
 }
 
 .padre__texto__boton__estilo:visited {
