@@ -14,9 +14,9 @@ body {
 }
 
 .padre {
-    display: flex; /* permite poner items en bloque */
-    align-items: center; /* esos item los centra en el centro */
-    flex-flow: nowrap; /* no permite objetos debajo de otros, solo objetos en la misma fila */
+    display: flex;
+    align-items: center;
+    flex-flow: nowrap;
     margin-top: 10%;
 }
 .texto__destacado {
