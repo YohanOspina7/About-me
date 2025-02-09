@@ -10,6 +10,7 @@
 body {
     background-color: black;
     color: white;
+    box-sizing: border-box;
     font-family: "Krona One", serif;
 }
 
@@ -89,10 +90,12 @@ body {
 }
 
 .footer {
-    display: flex;
-    padding: 20px;
-    gap: 16px;
     background-color: #581299;
-    color: white;
-    border: #360168;
+    color: black;
+    padding: 24px;
+    margin-top: 16px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
