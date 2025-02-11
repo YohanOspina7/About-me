@@ -18,6 +18,16 @@ body {
 
 }
 
+.header {}
+
+.header__nav {}
+
+.header__nav__lista {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
 .padre {
     display: flex;
     align-items: center;
