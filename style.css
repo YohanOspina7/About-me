@@ -18,14 +18,6 @@ body {
 
 }
 
-.header {
-    /* estilizacion del header */
-}
-
-.header__nav{
-    /* estilizacion del nav */
-}
-
 .header__nav__lista {
     display: flex;
     flex-direction: row;
