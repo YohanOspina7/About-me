@@ -42,6 +42,10 @@ body {
     flex-flow: nowrap;
     margin-top: 5%;
 }
+
+.padre__texto {
+    margin-bottom: 16px;
+}
 .texto__destacado {
     color:#581299;
 }
