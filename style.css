@@ -36,6 +36,10 @@ body {
     margin: 13px 20px;
 }
 
+.header__nav__lista__item__link:active {
+    color: white;
+}
+
 .padre {
     display: flex;
     align-items: center;
@@ -106,6 +110,10 @@ body {
 }
 
 .padre__texto__boton__estilo:visited {
+    color: #360168;
+}
+
+.padre__texto__boton__estilo:link {
     color: #360168;
 }
 
