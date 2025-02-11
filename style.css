@@ -45,6 +45,7 @@ body {
 
 .padre__texto {
     margin-bottom: 16px;
+    margin-right: 20px;
 }
 .texto__destacado {
     color:#581299;
