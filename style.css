@@ -22,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     flex-flow: nowrap;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .texto__destacado {
     color:#581299;
