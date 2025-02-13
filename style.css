@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 :root {
-    --color-primario: black;
-    --color-secundario:  #360168;
-    --color-terciario: #581299;
+    --color-primario: #17153B;
+    --color-secundario:  #2E236C;
+    --color-terciario: #433D8B;
+
+    --color-texto: #C8ACD6;
+    --color-texto-visited: #C8ACD6;
 }
 
 *{
@@ -15,7 +18,7 @@
 
 body {
     background-color: var(--color-primario);
-    color: white;
+    color: var(--color-texto);
     box-sizing: border-box;
     font-family: "Krona One", serif;
     min-height: 100vh;
@@ -32,10 +35,15 @@ body {
 .header__nav__lista__item {
     list-style: none;
     margin: 13px 20px;
+    color: var(--color-texto);
 }
 
 .header__nav__lista__item__link:active {
-    color: white;
+    color: var(--color-texto);
+}
+
+.header__nav__lista__item__link:visited {
+    color: var(--color-texto-visited);
 }
 
 .padre {
@@ -74,7 +82,7 @@ body {
 .padre__imagen {
     width: 60%;
     border-radius: 80px 10px 10px 80px;
-    border: 3px solid white;
+    border: 3px solid var(--color-texto);
 
     /* Por alguna razon la imagen
     se centra si pongo esto: */
@@ -85,7 +93,7 @@ body {
 }
 
 .padre__texto__boton {
-    color: white;
+    color: var(--color-texto);
     text-decoration: none;
     width: 200px;
     margin-top: 20px;
@@ -108,7 +116,7 @@ body {
 }
 
 .padre__texto__boton__estilo:visited {
-    color: var(--color-secundario);
+    color: var(--color-texto-visited);
 }
 
 .padre__texto__boton__estilo:link {
@@ -124,7 +132,7 @@ body {
 
 .footer {
     background-color: var(--color-secundario);
-    color: var(--color-primario);
+    color: var(--color-texto);
     padding: 24px;
     margin-top: auto;
     text-align: center;
