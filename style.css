@@ -28,9 +28,14 @@ body {
 
 }
 
+.header {
+
+}
+
 .header__nav__lista {
     display: flex;
     flex-direction: row;
+    margin-left: 200px;
 }
 
 .header__nav__lista__item {
