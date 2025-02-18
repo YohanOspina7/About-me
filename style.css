@@ -90,17 +90,10 @@ body {
     gap: 2rem;
 }
 
-.padre__imagen {
+.padre__imagen__img {
     width: 70%;
-    border-radius: 5em 0.625em 0.625em 5em;
+    border-radius: 0.625em 0.625em 0.625em 0.625em;
     border: 0.1875em solid var(--color-texto);
-
-    /* Por alguna razon la imagen
-    se centra si pongo esto: */
-    display: block;
-    margin-right: 10%;
-    /* Hasta aqui */
-    
 }
 
 .padre__texto__boton {
@@ -150,4 +143,19 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5em;
     font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .padre {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-flow: column-reverse;
+        margin-top: 4.5%;
+    }
+
+    .padre__imagen {
+        width: 70%;
+    }
+
 }
