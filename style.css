@@ -172,11 +172,6 @@ body {
         margin-top: 4.5%;
     }
 
-    .padre__texto__titulo {
-        width: 100%;
-        text-align: center;
-    }
-
     .padre__imagen {
         display: flex;
         justify-content: center;
