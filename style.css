@@ -150,6 +150,17 @@ body {
     font-weight: 400;
 }
 
+
+
+
+
+
+/* Media Queries */
+
+
+
+
+
 @media (max-width: 1200px) {
 
     .header__nav__lista {
