@@ -164,7 +164,7 @@ body {
     }
     
     .padre__imagen__img {
-        width: 70%;
+        width: 60%;
         border-radius: 0.625em 0.625em 0.625em 0.625em;
         border: 0.1875em solid var(--color-texto);
     }
